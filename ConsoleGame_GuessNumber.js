@@ -1,4 +1,19 @@
-const readline = require("readline");
+/*From: https://www.educative.io/courses/learn-nodejs-complete-course-for-beginners/7X0nMBL4xj8
+We want to create a random number guessing game. The way it works is that the game generates a random number from 1 to 10, and the player must try to guess it in 3 tries or less.
+
+Here’s what you will have to do:
+
+Generate a random number.
+Take the player’s input from the console.
+Compare the player’s guess with the generated number and check if:
+The number of remaining tries is more than 0. If so, the player can continue guessing if they are wrong.
+The player has won.
+The player has lost.
+If the player has tries left, output TOO HIGH or TOO LOW to the console depending on their guess.
+If the player has won, output WINNER to the console.
+If the player has lost, output YOU LOSE! THE NUMBER WAS: X to the console, where X is the randomNumber.
+
+const readline = require("readline");*/
 
 let rl = readline.createInterface({
   input: process.stdin,
