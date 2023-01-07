@@ -11,9 +11,9 @@ The player has won.
 The player has lost.
 If the player has tries left, output TOO HIGH or TOO LOW to the console depending on their guess.
 If the player has won, output WINNER to the console.
-If the player has lost, output YOU LOSE! THE NUMBER WAS: X to the console, where X is the randomNumber.
+If the player has lost, output YOU LOSE! THE NUMBER WAS: X to the console, where X is the randomNumber.*/
 
-const readline = require("readline");*/
+const readline = require("readline");
 
 let rl = readline.createInterface({
   input: process.stdin,
